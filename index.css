@@ -1,0 +1,63 @@
+html, body {
+    background: #5C258D;
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+    background: linear-gradient(to right, #4389A2, #5C258D);
+    height: 100%;
+    min-width: 500px;
+  }
+  #containerGeneral{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  #citation {
+    font-size: 2em;
+    font-family: 'Satisfy', curve;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    margin-top:15px;
+    text-align: center;
+  }
+  #containerCitation{
+      background-color: rgba(255, 255, 255,0.3);
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin:50px;
+      padding-left: 50px;
+      padding-right: 50px;
+      /* border: 2px solid black; */
+      box-shadow: rgb(243, 237, 243) 2px 2px 1px 2px;
+  }
+  
+  #citation:before {
+      content: open-quote;
+      display: flex;
+  }
+  
+  #citation:after {
+      content: close-quote;
+      display: flex;
+      justify-content: flex-end;
+  }
+  
+  #auteur {
+    font-size: 1.5em;
+    font-style: italic;
+    margin:50px;
+  }
+  
+  #nouveau {
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 500px;
+    border: solid 1px white;
+    font-weight: bold;
+  }

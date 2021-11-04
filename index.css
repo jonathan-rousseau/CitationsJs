@@ -47,20 +47,39 @@ html, body {
     margin:50px;
   }
   
-  #nouveau {
-    background: #ff9966;
-    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
-    background: linear-gradient(to right, #ff5e62, #ff9966);
-    cursor: pointer;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 500px;
-    border: solid 1px white;
-    font-weight: bold;
+ button {
+    box-shadow: none;
+    background: transparent;
+    transform-style: preserve-3d;
+    padding: 0;
+    height: auto;
+    float: none;
+    border:none;
+    font-family: 'Arial', curve;
   }
 
-  #nouveau:hover{
+  /* #nouveau:hover{
     background: greenyellow;
-  }
+  } */
+
+button span {
+    background: linear-gradient(180deg, #c640eb, #3c68c5);
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    line-height: 3rem;
+    will-change: transform, filter;
+    float: none;
+    margin: 0;
+    transition: all 0.15s ease-out;
+    height: auto;
+    border-radius: 100px;
+    overflow: hidden;
+    display: block;
+    margin: 0px auto;
+    display: block;
+    transform: rotateX(0deg) rotateY(0deg) scale(1);
+    filter: drop-shadow(0 15px 15px rgba(0,0,0,0.3));
+    font-weight: 600;
+    perspective-origin: 0 0;
+    letter-spacing: 0;
+}

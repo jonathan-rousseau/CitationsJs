@@ -83,3 +83,9 @@ button span {
     perspective-origin: 0 0;
     letter-spacing: 0;
 }
+
+span{
+  color:white;
+  opacity: 0.8;
+  box-shadow: black 2px 2px 2px;
+}
